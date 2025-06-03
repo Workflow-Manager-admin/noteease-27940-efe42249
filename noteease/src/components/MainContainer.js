@@ -45,6 +45,7 @@ const MainContainer = () => {
   // Apply filters whenever notes, searchTerm or activeCategory changes
   useEffect(() => {
     filterNotes();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [notes, searchTerm, activeCategory]);
   
   // Extract all unique categories from notes

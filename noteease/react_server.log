@@ -36,3 +36,6 @@ src/components/MainContainer.js
   Line 48:6:  React Hook useEffect has a missing dependency: 'filterNotes'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
 
 webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
